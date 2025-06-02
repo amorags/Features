@@ -35,3 +35,16 @@ C:\Users\alexs\Documents\GitHub\Features\movies\obj\Debug\net9.0\refint\Movies.d
 C:\Users\alexs\Documents\GitHub\Features\movies\obj\Debug\net9.0\Movies.pdb
 C:\Users\alexs\Documents\GitHub\Features\movies\obj\Debug\net9.0\Movies.genruntimeconfig.cache
 C:\Users\alexs\Documents\GitHub\Features\movies\obj\Debug\net9.0\ref\Movies.dll
+C:\Users\alexs\Documents\GitHub\Features\movies\bin\Debug\net9.0\Common.Logging.dll
+C:\Users\alexs\Documents\GitHub\Features\movies\bin\Debug\net9.0\Common.Logging.Core.dll
+C:\Users\alexs\Documents\GitHub\Features\movies\bin\Debug\net9.0\FeatureHubSDK.dll
+C:\Users\alexs\Documents\GitHub\Features\movies\bin\Debug\net9.0\System.Net.IPNetwork.dll
+C:\Users\alexs\Documents\GitHub\Features\movies\bin\Debug\net9.0\JsonSubTypes.dll
+C:\Users\alexs\Documents\GitHub\Features\movies\bin\Debug\net9.0\LaunchDarkly.EventSource.dll
+C:\Users\alexs\Documents\GitHub\Features\movies\bin\Debug\net9.0\MurmurHash.dll
+C:\Users\alexs\Documents\GitHub\Features\movies\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\alexs\Documents\GitHub\Features\movies\bin\Debug\net9.0\NodaTime.dll
+C:\Users\alexs\Documents\GitHub\Features\movies\bin\Debug\net9.0\Polly.dll
+C:\Users\alexs\Documents\GitHub\Features\movies\bin\Debug\net9.0\Polly.Extensions.Http.dll
+C:\Users\alexs\Documents\GitHub\Features\movies\bin\Debug\net9.0\RestSharp.dll
+C:\Users\alexs\Documents\GitHub\Features\movies\bin\Debug\net9.0\SemVer.dll
