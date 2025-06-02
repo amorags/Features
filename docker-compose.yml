@@ -1,5 +1,3 @@
-version: "3.9"
-
 services:
   featurehub:
     image: featurehub/party-server:latest
@@ -7,13 +5,35 @@ services:
     volumes:
       - featurehub-h2-data:/db
     ports:
-      - 8085:8085
-  app:
+      - "8085:8085"
+    networks:
+      - featurehub-network
+
+  movies:
     build:
       context: .
-      dockerfile: Demo/Dockerfile
+      dockerfile: Movies/Dockerfile
+    ports:
+      - "7001:80"
     depends_on:
-      - featurehub  
-  
+      - featurehub
+    networks:
+      - featurehub-network
+
+  shows:
+    build:
+      context: .
+      dockerfile: Shows/Dockerfile
+    ports:
+      - "7002:80"
+    depends_on:
+      - featurehub
+    networks:
+      - featurehub-network
+
+networks:
+  featurehub-network:
+    driver: bridge
+
 volumes:
   featurehub-h2-data:

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexs\\Documents\\GitHub\\Features\\Shows\\Shows.csproj": {}
+    "C:\\Users\\alexs\\Documents\\GitHub\\Features\\shows\\Shows.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexs\\Documents\\GitHub\\Features\\Shows\\Shows.csproj": {
+    "C:\\Users\\alexs\\Documents\\GitHub\\Features\\shows\\Shows.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexs\\Documents\\GitHub\\Features\\Shows\\Shows.csproj",
+        "projectUniqueName": "C:\\Users\\alexs\\Documents\\GitHub\\Features\\shows\\Shows.csproj",
         "projectName": "Shows",
-        "projectPath": "C:\\Users\\alexs\\Documents\\GitHub\\Features\\Shows\\Shows.csproj",
+        "projectPath": "C:\\Users\\alexs\\Documents\\GitHub\\Features\\shows\\Shows.csproj",
         "packagesPath": "C:\\Users\\alexs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexs\\Documents\\GitHub\\Features\\Shows\\obj\\",
+        "outputPath": "C:\\Users\\alexs\\Documents\\GitHub\\Features\\shows\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexs\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -44,9 +44,17 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "FeatureHub.SDK": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.2, )"
             }
           },
           "imports": [
